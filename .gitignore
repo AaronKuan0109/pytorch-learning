@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Datasets
+data/
+datasets/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Training logs
+runs/
+logs/
+wandb/
+
+# Local configuration
+.env
+.env.*
+
+# Conda environments
+.conda/
